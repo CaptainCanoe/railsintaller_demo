@@ -1,0 +1,13 @@
+<h1>Enter Your Shit</h1>
+<%= form_for @account do |t| %>
+	<%= t.label :user_name %>
+	<%= t.text_field :user_name %><br />
+
+	<%= t.label :e_mail %>
+	<%= t.text_field :e_mail%><br />
+
+	<%= t.label :password %>
+	<%= t.text_field :password%>
+
+	<%= t.submit %>
+<% end %>
